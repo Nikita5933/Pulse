@@ -6,8 +6,47 @@
 }
 
 @media (max-width: 767px){
-
+.promo {
+    background: url(../../img/bg.jpg) center center no-repeat;
+}
 }
 @media (max-width: 575px){
-
+    .promo {
+        padding: 0;
+        background-position: 0px 100%;
+        &__header {
+            font-size: 30px;
+            text-align: center;
+        }
+        &__subheader {
+            font-size: 20px;
+            text-align: center;
+        }
+        &__icon {
+            width: 70px;
+        }
+        &__icons {
+            width: 320px;
+        }
+    }
+.header {
+    min-height: 50px;
+    &__phone {
+        display: none;
+    }
+    &__official {
+        display: none;
+    }
+}
+.advantages {
+    padding-top: 18px;
+    &__icons {
+        display: flex;
+        flex-direction: column;
+    }
+    &__descr {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
 }
