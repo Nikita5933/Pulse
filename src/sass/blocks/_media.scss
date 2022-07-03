@@ -1,4 +1,13 @@
 @media (max-width: 1200px){
+    .carousel {
+    
+        &__inner {
+            max-width: 100%;
+            img {
+                max-width: 100%;
+            }
+        }
+       }
     
 }
 @media (max-width: 991px){
@@ -21,6 +30,12 @@
             font-size: 21px;
         }
     }
+    .catalog {
+
+        &-item {
+            margin: 10px 20px 16px 20px;
+        }
+       }
 }
 
 @media (max-width: 767px){
@@ -43,12 +58,27 @@
     &__descr {
         font-size: 19px;
     }
-}
-.container {
-  
+
+
 }
 .carousel {
     
+    &__inner {
+        max-width: 100%;
+        img {
+            max-width: 100%;
+        }
+    }
+   }
+   .catalog {
+
+    &__tab {
+        margin: 2;
+        font-size: 12px;
+    }
+    &-item {
+        margin: 30px;
+    }
    }
 }
 @media (max-width: 575px){
@@ -110,4 +140,29 @@
     margin: 0 auto;
     padding-top: 50px;
 }
+.carousel {
+    
+    &__inner {
+        max-width: 100%;
+        img {
+            max-width: 100%;
+        }
+    }
+   }
+   .catalog {
+    
+    &__content {
+        margin-top: 0px;
+    }
+
+    &__tab {
+        font-size: 9px;
+        
+    }
+    &-item {
+      &__link {
+        margin-top: 100px;
+      }
+    }
+   }
 }
