@@ -80,12 +80,16 @@ font-size: 28px;
 
 }
 .advantages {
-
+    padding: 30px 0px 40px;
+    img {
+        padding-bottom: 25px;
+    }
     &__icons {
         display: block;
     }
     &__descr {
-        font-size: 13px;
+        margin: 0 auto;
+        font-size: 14px;
     }
 }
 .carousel {
@@ -93,6 +97,7 @@ font-size: 28px;
     &__inner {
         max-width: 100%;
         img {
+
             max-width: 100%;
         }
     }
@@ -124,6 +129,18 @@ font-size: 28px;
             margin: 40px 50px 105px 10px;
         }
     }
+    }
+    .footer {
+        &__info {
+            width: 420px;
+            height: 240px;
+        }
+        &__adr {
+            font-size: 17px;
+        }
+        &__phone {
+            font-size: 17px;
+        }
     }
 }
 @media (max-width: 575px){
@@ -199,7 +216,7 @@ font-size: 28px;
         }
     }
    }
-   .catalog {
+.catalog {
     
     &__content {
         margin-top: 0px;
@@ -216,7 +233,7 @@ font-size: 28px;
       }
     }
    }
-   .feed {
+.feed {
 
     &__descr {
         padding-top: 20px;
@@ -248,5 +265,23 @@ font-size: 28px;
     &__subtitle {
         text-align: center;
     }
+    }
+.footer {
+        &__info {
+            width: 100%;
+        }
+        &__adr {
+            font-size: 17px;
+        }
+        &__phone {
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+        &__social-item {
+            border: none;
+            margin: 0px 30px 0 30px;
+           
+        }
+        
     }
 }
