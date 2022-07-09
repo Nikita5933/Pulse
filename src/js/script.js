@@ -33,7 +33,9 @@ $(document).ready(function(){
                 $('.catalog-item__list').eq(i).toggleClass('catalog-item__list_active');
             });
           });
+          
       };
+
       toggleSlide('.catalog-item__link');
       toggleSlide('.catalog-item__back');
   });

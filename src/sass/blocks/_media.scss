@@ -36,10 +36,26 @@
             margin: 10px 20px 16px 20px;
         }
        }
-}
+    .feed {
+
+        &__descr, p {
+            font-size: 16px;
+        }
+        &__item {
+
+            img {
+                width: 57%;
+                height: 57%;
+            }
+        }
+        }
+    }
+
+
 
 @media (max-width: 767px){
 .promo {
+ 
     background: url(../../img/bg.jpg) center center no-repeat;
     &__header {
         font-size: 37px;
@@ -49,11 +65,13 @@
     }
 }
 .title {
+font-size: 28px;
     &_left {
-        font-size: 28px;
+        font-size: 27px;
     }
 }
 .consultation {
+ 
     padding: 70px 0px 0px 0px;
     &__descr {
         font-size: 19px;
@@ -61,8 +79,17 @@
 
 
 }
+.advantages {
+
+    &__icons {
+        display: block;
+    }
+    &__descr {
+        font-size: 13px;
+    }
+}
 .carousel {
-    
+
     &__inner {
         max-width: 100%;
         img {
@@ -71,18 +98,36 @@
     }
    }
    .catalog {
+    &__tabs {
+        display: block;
 
+    }
     &__tab {
-        margin: 2;
+
+        margin: 0 auto;
+        margin-top: 20px;
         font-size: 12px;
     }
     &-item {
         margin: 30px;
     }
    }
+   
+   .feed {
+
+    &__descr, p {
+        font-size: 15px;
+    }
+    &__item {
+
+        img {
+            margin: 40px 50px 105px 10px;
+        }
+    }
+    }
 }
 @media (max-width: 575px){
-    .promo {
+       .promo {
         padding: 0;
         background-position: 0px 100%;
         &__header {
@@ -115,12 +160,17 @@
         display: flex;
         flex-direction: column;
     }
+    &__icon {
+        padding-top: 42px;
+    }
     &__descr {
         text-align: center;
         margin: 0 auto;
     }
 }
 .title {
+    font-size: 23px;
+    margin-bottom: 0px;
     &_left {
         margin-bottom: 15px;
         font-size: 20px;
@@ -156,13 +206,47 @@
     }
 
     &__tab {
-        font-size: 9px;
+        font-size: 12px;
         
     }
     &-item {
+        margin-top: 40px;
       &__link {
         margin-top: 100px;
       }
     }
    }
+   .feed {
+
+    &__descr {
+        padding-top: 20px;
+        font-size: 14px;
+        text-align: center;
+        
+       
+    }
+    p {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+   
+    
+    &__item {
+        display: block;
+        img {
+          padding-top: 35px;
+          padding-bottom: 35px;
+          display: block;
+          margin: 0 auto;
+        }
+    }
+    &__name {
+        text-align: center;
+        margin-top: 28px;
+    }
+    &__subtitle {
+        text-align: center;
+    }
+    }
 }
