@@ -49,6 +49,7 @@
             }
         }
         }
+    
     }
 
 
@@ -157,6 +158,8 @@ font-size: 28px;
         }
         &__icon {
             width: 70px;
+            margin-left: 20px;
+
         }
         &__icons {
             width: 320px;
@@ -206,6 +209,9 @@ font-size: 28px;
     width: 250px;
     margin: 0 auto;
     padding-top: 50px;
+    &_mt25 {
+        padding-top: 14px;
+    }
 }
 .carousel {
     
@@ -228,8 +234,11 @@ font-size: 28px;
     }
     &-item {
         margin-top: 40px;
-      &__link {
-        margin-top: 100px;
+      &__price {
+        font-size: 17px;
+      }
+      &__old-price {
+        font-size: 13px;
       }
     }
    }
@@ -283,5 +292,26 @@ font-size: 28px;
            
         }
         
+    }
+    .modal {
+        width: 320px;
+        &__close {
+            right: 16px;
+            top: 16px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+    }
+    .button {
+        &_submit {
+            font-size: 15px;
+        }
+        &_mini {
+            width: 126px;
+        }
     }
 }
