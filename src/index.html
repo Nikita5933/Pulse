@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
-<section class="promo">
+<section id="up" class="promo">
     <div class="container">
         <header class="header">
             <a href="#" class="header__logo">
@@ -63,8 +63,9 @@
         <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
         <div class="advantages__icons">
         <div class="advantages__icon">
-            <img src="img/icons/cup.png" alt="cup">
-            Делимся опытом
+            <img src="img/icons/cup.png" alt="cup" class="advantages__icon">
+            
+            <div class="advantages__subtitle">Делимся опытом</div>
             <div class="advantages__descr">
                 Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
             </div>
@@ -72,8 +73,8 @@
         
         
         <div class="advantages__icon">
-            <img src="img/icons/heart.png" alt="heart">
-            Заботимся о здоровье
+            <img src="img/icons/heart.png" alt="heart" class="advantages__icon advantages__icon_animated">
+           <div class="advantages__subtitle">Заботимся о здоровье</div>
             <div class="advantages__descr">
                 Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
             </div>
@@ -81,8 +82,9 @@
         </div>
         
         <div class="advantages__icon">
-            <img src="img/icons/shoe.png" alt="shoe">
-            Учим бегать
+            <img src="img/icons/shoe.png" alt="shoe" class="advantages__icon">
+            
+            <div class="advantages__subtitle">Учим бегать</div>
             <div class="advantages__descr">
                 Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - <a href="#">I LOVE RUNNING.</a>
             </div>
@@ -101,7 +103,7 @@
             </div>
             <form id="consultation-form" class="feed-form" action="#">
                 <input name="name" required placeholder="Ваше имя" type="text">
-                <input name="phone" required placeholder="Ваш телефон" type="number">
+                <input name="phone" required placeholder="Ваш телефон">
                 <input name="email" required placeholder="Ваш E-mail" type="email">
                 <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
             
@@ -429,7 +431,7 @@
             <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
             <form class="feed-form feed-form_mt25" action="#">
                 <input name="name" placeholder="Ваше имя" type="text">
-                <input name="phone" placeholder="Ваш телефон" type="number">
+                <input name="phone" placeholder="Ваш телефон">
                 <input name="email" placeholder="Ваш E-mail" type="email">
                 <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
             
@@ -442,7 +444,7 @@
             <div class="modal__descr">Пульсометр Polar FT1</div>
             <form class="feed-form feed-form_mt25" action="#">
                 <input name="name" required placeholder="Ваше имя" type="text">
-                <input name="phone" required placeholder="Ваш телефон" type="number">
+                <input name="phone" required placeholder="Ваш телефон">
                 <input name="email" required placeholder="Ваш E-mail" type="email">
                 <button class="button button_submit">КУПИТЬ</button>
             
@@ -456,12 +458,17 @@
         </div>
 
     </div>
+    <a href="#up" class="pageup">
+        <img src="img/icons/up.svg" alt="pageup">
+    </a>
+    
 
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
