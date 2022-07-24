@@ -1,6 +1,19 @@
 .feed {
     background-color: #fff;
     margin-bottom: 50px;
+
+    &__item {
+        display: flex;
+        img {
+            width: 169px;
+            height: 169px;
+            margin-top: 40px;
+            margin-right: 62px;
+            margin-bottom: 105px;
+           
+        }
+        
+    }
    
     &__name {
         margin-top: 40px;
@@ -20,18 +33,7 @@
         line-height: 24px;
         color: #0D0D0D;
     }
-    &__item {
-        display: flex;
-        img {
-            width: 169px;
-            height: 169px;
-            margin-top: 40px;
-            margin-right: 62px;
-            margin-bottom: 105px;
-           
-        }
-        
-    }
+   
    
     }
     
