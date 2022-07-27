@@ -11,7 +11,11 @@
     
 }
 @media (max-width: 991px){
+    .container {
+        padding: 5px 10px;
+    }
     .promo {
+
         &__header {
             font-size: 40px;
         }
@@ -33,7 +37,14 @@
     .catalog {
 
         &-item {
+            width: 260px;
             margin: 10px 20px 16px 20px;
+            &__descr {
+                width: 210px;
+            }
+            &__link {
+                margin-top: 48px;
+            }
         }
        }
     .feed {
@@ -73,7 +84,7 @@ font-size: 28px;
 }
 .consultation {
  
-    padding: 70px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
     &__descr {
         font-size: 19px;
     }
@@ -81,9 +92,12 @@ font-size: 28px;
 
 }
 .advantages {
-    padding: 30px 0px 40px;
+    padding: 10px 0px;
     img {
         padding-bottom: 25px;
+    }
+    &__icon {
+        padding-top: 30px;
     }
     &__icons {
         display: block;
@@ -94,7 +108,7 @@ font-size: 28px;
     }
 }
 .carousel {
-
+    padding: 40px 0px;
     &__inner {
         max-width: 100%;
         img {
@@ -104,9 +118,10 @@ font-size: 28px;
     }
    }
    .catalog {
+    padding-bottom: 40px;
     &__tabs {
         display: block;
-
+        margin-top: 40px;
     }
     &__tab {
 
@@ -116,6 +131,9 @@ font-size: 28px;
     }
     &-item {
         margin: 30px;
+    }
+    &__content {
+        margin-top: 30px;
     }
    }
    
@@ -143,8 +161,17 @@ font-size: 28px;
             font-size: 17px;
         }
     }
+    .pageup {
+        right: 12px;
+    }
 }
 @media (max-width: 575px){
+        .container {
+        padding: 0px;
+    }
+        .button__main {
+            width: 270px;
+        }
        .promo {
         padding: 0;
         background-position: 0px 100%;
@@ -181,7 +208,7 @@ font-size: 28px;
         flex-direction: column;
     }
     &__icon {
-        padding-top: 42px;
+        padding-top: 22px;
     }
     &__descr {
         text-align: center;
@@ -233,7 +260,10 @@ font-size: 28px;
         
     }
     &-item {
+        display: block;
+        margin: 0 auto;
         margin-top: 40px;
+        
       &__price {
         font-size: 17px;
       }
