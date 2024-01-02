@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "gulp-imagemin": "^7.1.0"
-  },
-  "dependencies": {
-    "imagemin-pngquant": "^9.0.2"
-  }
-}
